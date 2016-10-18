@@ -1,0 +1,35 @@
+// Color Variables
+// ========================================
+
+// Black
+$black-base:   #000000;
+
+// White
+$white-light:  #FAFAFA;
+$white-base:   #FFFFFF;
+$white-dark:   #F5F5F6;
+
+// Grey
+$grey-light:   #444F59;
+$grey-base:    #3E4149;
+
+// Pink
+$pink-light:    #FF6BAC;
+$pink-base:     #F35192;
+$pink-dark:     #DA3879;
+
+
+
+
+// Color Palette List
+$colors: (
+  black-base    $black-base,
+  white-base     $white-base,
+  grey-base     $grey-base,
+  pink-light     $pink-light,
+  pink-base      $pink-base,
+  pink-dark      $pink-dark,
+  white-light   $white-light,
+  white-base    $white-base,
+  white-dark    $white-dark
+);

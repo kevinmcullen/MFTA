@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="14px" viewBox="0 0 53 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>illo-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Portrait" transform="translate(-355.000000, -441.000000)">
+            <g id="illo-icon" transform="translate(355.000000, 441.000000)">
+                <g id="Group-3" fill="#444F59">
+                    <rect id="Rectangle-2" x="0" y="3" width="2" height="11"></rect>
+                    <rect id="Rectangle-2-Copy" x="3" y="0" width="2" height="14"></rect>
+                    <rect id="Rectangle-2-Copy-2" x="6" y="3" width="2" height="11"></rect>
+                    <rect id="Rectangle-2-Copy-3" x="9" y="8" width="2" height="6"></rect>
+                    <rect id="Rectangle-2-Copy-4" x="12" y="2" width="2" height="12"></rect>
+                </g>
+                <text id="+" font-family="Poppins-SemiBold, Poppins" font-size="10" font-weight="500" fill="#F35192">
+                    <tspan x="22.575" y="11">+</tspan>
+                </text>
+                <g id="Group-4" transform="translate(38.000000, 0.000000)">
+                    <rect id="Rectangle-5" fill="#444F59" x="0" y="3" width="15" height="10.8"></rect>
+                    <rect id="Rectangle-5-Copy-2" fill="#444F59" x="9" y="0" width="4.8" height="3"></rect>
+                    <rect id="Rectangle-5-Copy-2" fill="#FFFFFF" x="10.2" y="0.6" width="2.4" height="1.8"></rect>
+                    <rect id="Rectangle-5-Copy" fill="#444F59" x="1.8" y="2.4" width="2.4" height="1.2"></rect>
+                    <ellipse id="Oval-3" fill="#FFFFFF" cx="7.5" cy="8.7" rx="2.7" ry="2.7"></ellipse>
+                    <ellipse id="Oval-3" fill="#444F59" cx="7.5" cy="8.7" rx="1.5" ry="1.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

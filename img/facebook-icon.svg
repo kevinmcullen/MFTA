@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Event-—-Desktop" transform="translate(-517.000000, -2531.000000)">
+            <g id="Group-3-Copy" transform="translate(0.000000, 2365.000000)">
+                <g id="Group-2" transform="translate(442.000000, 73.000000)">
+                    <g id="Group-10-Copy" transform="translate(45.000000, 93.000000)">
+                        <g id="facebook-icon" transform="translate(30.000000, 0.000000)">
+                            <ellipse id="Oval-5" fill="#F35192" cx="10" cy="10" rx="10" ry="10"></ellipse>
+                            <path d="M13.3333333,4.74839749 L13.3333333,6.54647447 L12.2430553,6.54647447 C11.8449073,6.54647447 11.5763885,6.62820529 11.4374998,6.79166695 C11.2986111,6.95512819 11.2291666,7.20032067 11.2291666,7.52724358 L11.2291666,8.81450339 L13.2638888,8.81450339 L12.9930554,10.830529 L11.2291666,10.830529 L11.2291666,16 L9.10416654,16 L9.10416654,10.830529 L7.33333333,10.830529 L7.33333333,8.81450339 L9.10416654,8.81450339 L9.10416654,7.32972758 C9.10416654,6.48517665 9.34490722,5.83019496 9.82638857,5.36478372 C10.3078703,4.89937249 10.9490741,4.66666667 11.7499997,4.66666667 C12.4305553,4.66666667 12.9583333,4.69391055 13.3333333,4.74839749 L13.3333333,4.74839749 Z" id="Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,369 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff; }
+
+.button {
+  background-color: #F35192;
+  color: #FFFFFF; }
+
+.slideshow p {
+  font-size: .75rem;
+  margin: 5px auto;
+  text-align: center; }
+
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 2.65rem;
+  margin-bottom: 1.5rem; }
+
+p {
+  line-height: 1.5em;
+  font-weight: 400; }
+
+.wrapper {
+  width: 100%; }
+
+.mainContent p {
+  color: #FFFFFF; }
+
+.mainContentWrapper {
+  background-image: linear-gradient(343deg, #3e4149, #f35192 51%, #3e4149);
+  padding-bottom: 60px; }
+
+.mainContent {
+  width: 80%;
+  padding-top: 40px;
+  margin: 0 auto; }
+
+* p:not(:last-child) {
+  margin-bottom: 1rem; }
+
+.infoNav,
+.mainNav {
+  position: fixed;
+  top: 30px;
+  width: 30px;
+  height: 30px; }
+
+.infoNav {
+  left: 30px;
+  background-color: #F35192;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 7px;
+  color: #FFFFFF;
+  font-weight: 700; }
+
+.mainNav {
+  right: 30px; }
+
+.mainNav div {
+  background-color: #F35192;
+  height: 5px;
+  width: 100%; }
+
+.mainNav div:not(:last-child) {
+  margin-bottom: 5px; }
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/christina-main-large.png);
+  background-size: cover; }
+
+header img {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
+  mix-blend-mode: multiply;
+  display: block;
+  position: relative; }
+
+img.mainLogo {
+  margin-top: 30px;
+  margin-top: 2.5vh; }
+
+.iconIllo img {
+  width: 50%; }
+
+.info {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: pink;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: center; }
+
+h1,
+.eventDate {
+  top: 10vh; }
+
+h1 {
+  opacity: 0; }
+
+header p {
+  font-size: .8rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 7.5px;
+  font-weight: 700; }
+
+div.eventDate {
+  color: #FFFFFF;
+  background-color: #3E4149;
+  position: relative;
+  top: 15%;
+  padding: 8px;
+  width: 70%;
+  margin: 0 auto; }
+
+header div.iconIllo {
+  width: 50%;
+  margin: 0 auto 20px; }
+
+header a.scrollIcon {
+  width: 20%; }
+
+.scrollIcon img {
+  width: 25px; }
+
+footer {
+  width: 100%;
+  text-align: center; }
+
+footer nav ul {
+  margin: 30px auto;
+  text-align: center; }
+
+footer nav ul li {
+  display: inline-block;
+  text-transform: uppercase; }
+
+footer nav ul li a,
+footer p.copyright a {
+  color: #F35192;
+  /*  transition: all .1s ease-in-out;*/ }
+
+footer nav ul li a:hover,
+footer p.copyright a {
+  color: #DA3879;
+  /*  border-bottom: solid 4px $pink-base;*/ }
+
+footer nav ul li a.selected {
+  color: #3E4149; }
+
+footer div.logo {
+  width: 100%; }
+
+footer div.logo img {
+  width: 50%;
+  max-width: 140px;
+  margin: 0 auto 30px;
+  display: block; }
+
+footer div.socialIcons {
+  margin: auto;
+  display: inline-block;
+  margin-bottom: 30px; }
+
+.socialIcons > :first-child {
+  padding-right: 10px; }
+
+footer div.socialIcons a img:hover {
+  transform: scale(1.4); }
+
+footer p.copyright {
+  font-size: .75rem;
+  width: 60%;
+  margin: 0 auto 30px; }
+
+/**
+ *   Here's where everything gets included. You don't need
+ *   to change anything here, and doing so might break
+ *   stuff. Here be dragons and all that.
+ */
+/**
+ *   Default variables
+ *
+ *   While these can be set with JavaScript, it's probably
+ *   better and faster to just set them here, compile to
+ *   CSS and include that instead to use some of that
+ *   hardware-accelerated goodness.
+ */
+/*
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default;
+}
+
+*/
+/**
+ *   Here's where everything gets included. You don't need
+ *   to change anything here, and doing so might break
+ *   stuff. Here be dragons and all that.
+ */
+/**
+ *   Default variables
+ *
+ *   While these can be set with JavaScript, it's probably
+ *   better and faster to just set them here, compile to
+ *   CSS and include that instead to use some of that
+ *   hardware-accelerated goodness.
+ */
+.unslider {
+  overflow: auto;
+  margin: 40px -13% 0;
+  padding: 0;
+  width: 126%; }
+
+.unslider-wrap {
+  position: relative; }
+
+.unslider-wrap.unslider-carousel > li {
+  float: left; }
+
+.unslider-vertical > ul {
+  height: 100%; }
+
+.unslider-vertical li {
+  float: none;
+  width: 100%; }
+
+.unslider-fade {
+  position: relative; }
+
+.unslider-fade .unslider-wrap li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 8; }
+
+.unslider-fade .unslider-wrap li.unslider-active {
+  z-index: 10; }
+
+.unslider ul, .unslider ol, .unslider li {
+  list-style: none;
+  /* Reset any weird spacing */
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+.unslider-arrow {
+  position: absolute;
+  left: 40px;
+  z-index: 2;
+  cursor: pointer;
+  /*  margin-top: px;*/ }
+
+.unslider-arrow.next {
+  left: auto;
+  right: 40px;
+  /*  margin-top: -200px;*/ }
+
+.unslider-nav ol {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 40px; }
+
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  /*  border: 2px solid #fff;*/
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer; }
+
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default; }
+
+.slideshow img {
+  max-width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

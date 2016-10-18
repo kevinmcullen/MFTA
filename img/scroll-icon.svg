@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>scroll-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Portrait" transform="translate(-374.000000, -513.000000)">
+            <g id="scroll-icon" transform="translate(374.000000, 513.000000)">
+                <use id="Rectangle" stroke="#F35192" mask="url(#mask-2)" stroke-width="4" stroke-linecap="square" xlink:href="#path-1"></use>
+                <path d="M15.3333333,8.16499667 C15.3333333,8.25183744 15.2999329,8.32865761 15.2331328,8.39545779 L10.5637945,13.0647961 C10.4969943,13.1315963 10.4201735,13.1649967 10.3333333,13.1649967 C10.2464932,13.1649967 10.169673,13.1315963 10.1028722,13.0647961 L5.4335339,8.39545779 C5.36673372,8.32865761 5.33333333,8.25183744 5.33333333,8.16499667 C5.33333333,8.07815649 5.36673372,8.00133632 5.4335339,7.93453614 L5.93453614,7.4335339 C6.00133632,7.36673372 6.07815649,7.33333333 6.16499667,7.33333333 C6.25183744,7.33333333 6.32865761,7.36673372 6.39545779,7.4335339 L10.3333333,11.3714094 L14.2712089,7.4335339 C14.3380091,7.36673372 14.4148298,7.33333333 14.50167,7.33333333 C14.5885102,7.33333333 14.6653303,7.36673372 14.7321311,7.4335339 L15.2331328,7.93453614 C15.2999329,8.00133632 15.3333333,8.07815649 15.3333333,8.16499667 L15.3333333,8.16499667 Z" id="Shape" fill="#3E4149"></path>
+            </g>
+        </g>
+    </g>
+</svg>
