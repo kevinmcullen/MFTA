@@ -186,7 +186,10 @@ header div.iconIllo {
   margin: 0 auto 20px; }
 
 header a.scrollIcon {
-  width: 20%; }
+  width: 20%;
+  position: relative;
+  bottom: 100px;
+  bottom: 10vh; }
 
 .scrollIcon img {
   width: 25px; }
