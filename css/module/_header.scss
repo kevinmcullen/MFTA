@@ -1,24 +1,37 @@
+//Spacers-vertical
+
+header nav,
+div.eventDate,
+img.mainLogo,
+.iconIllo img {
+    margin: 0 auto 1.875rem;
+}
+
+header p.annual {
+  margin-bottom: 3.75rem;
+}
+
+
+
 //Headline and labels
 header {
   width: 100%;  
   height: 100vh;
   background-image: url(../img/christina-main-large.png);
   background-size: cover;
-  padding-top: 3.125rem;
+  padding-top: 2.5rem;
 }
 
 header img {
   width: 80%;
   margin: auto;
-  padding-top: 100px;
+/*  margin-top: 60px;*/
   mix-blend-mode: multiply;
   display: block;
   position: relative;
 }
 
 img.mainLogo {
-  margin-top: 30px;
-  margin-top: 2.5vh;
   max-width: 700px;
 }
 
@@ -37,6 +50,17 @@ img.mainLogo {
   bottom: 10px;
   right: 10px;
   text-align: center;
+
+}
+
+div.eventDate { 
+  color: $white-base; 
+  background-color: $grey-base;
+  position: relative;
+  padding: 8px; 
+  width: 70%;
+  max-width: 300px;
+
 }
 
 
@@ -44,7 +68,6 @@ img.mainLogo {
 
 header nav { 
   width: 90%;
-  margin: auto;
 /*  position: relative;
   top: 40px;
   right: 30px;*/
@@ -62,7 +85,8 @@ header nav ul li a {
   padding: 10px 5px;
 }
 
-header nav ul li:before {
+header nav ul li:before,
+footer nav ul li:before {
   content: " | ";
 }
 
@@ -101,17 +125,6 @@ header p {
 
 }
 
-div.eventDate { 
-  color: $white-base; 
-  background-color: $grey-base;
-  position: relative;
-  top: 7.5%;
-
-  padding: 8px; 
-  width: 70%;
-  max-width: 300px;
-  margin: 0 auto;
-}
 
 header div.iconIllo {
   width: 50%;
@@ -120,11 +133,12 @@ header div.iconIllo {
 
 header a.scrollIcon {
   width: 20%;
-  position: relative;
-    bottom: 100px;
-  bottom: 10vh;
+  padding: 20px;
+/*  position: relative;*/
+/*    bottom: 100px;
+  bottom: 10vh;*/
 }
 
-.scrollIcon img {
+header a.scrollIcon img {
   width: 25px;
 }
