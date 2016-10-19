@@ -1,0 +1,5 @@
+$section-break: 3.75rem;
+
+@mixin section-break {
+  margin-bottom: $section-break;
+}

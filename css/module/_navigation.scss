@@ -1,3 +1,4 @@
+/*
 .infoNav,
 .mainNav {
   position: fixed;
@@ -29,3 +30,52 @@
 .mainNav div:not(:last-child) {
   margin-bottom: 5px;
 }
+*/
+
+
+//Main Nav
+
+header nav { 
+  width: 90%;
+/*  position: relative;
+  top: 40px;
+  right: 30px;*/
+  font-size: 1rem;
+  text-align: center;
+  
+  @media #{$breakpoint-mobile} {
+    font-size: .75rem;
+  }
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: $pink-base;
+  text-transform: uppercase;
+  padding: 10px 5px;
+}
+
+header nav ul li:before,
+footer nav ul li:before {
+  content: " | ";
+}
+
+header nav ul li:first-child:before, 
+footer nav ul li:first-child:before {
+  content: "";
+}
+
+header nav ul li a:hover,
+footer p.copyright a {
+  color: $pink-dark;
+/*  border-bottom: solid 4px $pink-base;*/
+}
+
+header nav ul li a.selected {
+  color: $grey-base;
+}
+
+

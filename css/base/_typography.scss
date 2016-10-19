@@ -1,0 +1,74 @@
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', 'Open Sans', 'Arial', sans-serif;
+  font-weight: 700;
+  color: $white-base;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  @include headline-small;
+  margin: 0 auto 2rem;
+  max-width: 650px;
+  
+  @media #{$breakpoint-phablet} {
+    @include headline-medium;
+  }
+  
+  @media #{$breakpoint-tablet} {
+    @include headline-medium; 
+  }
+  
+  @media #{$breakpoint-desktop} {
+    @include headline-large;
+  }
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: $section-break;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+aside p {
+  font-size: 1.25rem;
+  @include bold;
+}
+
+aside p:not(:last-child) {
+  border-bottom: solid $white-base 1px;
+  padding-bottom: 10px;
+}
+
+.mainContent p {
+  color: $white-base;
+}
+
+.slideshow p {
+  font-size: .75rem;
+  margin: 5px auto;
+  text-align: center;
+}
+
+small {
+  @include small;
+}
+
+aside small {
+  color: $white-base;
+}

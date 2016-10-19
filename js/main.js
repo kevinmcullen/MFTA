@@ -2,7 +2,17 @@ jQuery(document).ready(function($) {
     
   
   //Slidehow
-  $('.slideshow').unslider();
+  var scripts = [
+	'http://stephband.info/jquery.event.move/js/jquery.event.move.js',
+	'http://stephband.info/jquery.event.swipe/js/jquery.event.swipe.js'
+];
+
+$.getScript(scripts[0]);
+
+//  Once our script is loaded, we can initSwipe to add swipe support
+$.getScript(scripts[1], function() {
+	$('.slideshow').unslider('initSwipe');
+});
   
   
   //Scroll animation

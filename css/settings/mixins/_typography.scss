@@ -4,6 +4,22 @@
   margin: auto;
 }
 
-/*.mainContent h2 {
-  margin-bottom: 2rem;
-}*/
+@mixin headline-large {
+  font-size: $headline-main-desktop;
+}
+
+@mixin headline-medium {
+  font-size: $headline-main-tablet;
+}
+
+@mixin headline-small {
+  font-size: $headline-main-mobile;
+}
+
+@mixin bold {
+  font-weight: 700;
+}
+
+@mixin small {
+  font-size: $small;
+}

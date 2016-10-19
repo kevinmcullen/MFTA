@@ -1,0 +1,78 @@
+// Button Component
+// ========================================
+
+// Variables
+$button-border:                none;
+$button-display:               block;
+$button-line-height:           normal;
+$button-padding:               20px 35px;
+$button-text-align:            center;
+$button-text-transform:        uppercase;
+$button-transition:            all 0.3s ease-in-out;
+
+$button-small-padding:         ($button-padding / 2);
+
+$button-input-height:          45px;
+$button-input-padding:         0 20px;
+
+$button-hover-cursor:          pointer;
+$button-hover-opacity:         1;
+
+$button-focus-border:          none;
+$button-focus-outline:         none;
+$button-focus-text-decoration: none;
+
+//mixins
+
+
+//Buttons
+
+button {
+  font-family: $font-family;
+  @include bold;
+  border: $button-border;
+  display: $button-display;
+  height: auto;
+  line-height: $button-line-height;
+  padding: $button-padding;
+  text-align: $button-text-align;
+  text-decoration: none;
+  text-transform: $button-text-transform;
+  -webkit-appearance: none;
+  transition: $button-transition;
+  margin-top: 1rem;
+
+  &:hover {
+    cursor: $button-hover-cursor;
+      -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
+      -moz-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,1);
+    background-color: rgba(255,255,255, 0);
+    color: $white-base;
+  }
+
+  &:focus {
+    border: $button-focus-border;
+    outline: $button-focus-outline;
+    text-decoration: $button-focus-text-decoration;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+
+button {
+  background-color: $pink-base;
+  color: $white-base;
+  padding: $button-padding;
+}
+
+aside button {
+  background-color: $white-base;
+  color: $pink-base;
+  padding: $button-padding;
+  
+  
+}

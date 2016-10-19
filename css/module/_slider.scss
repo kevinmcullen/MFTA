@@ -50,10 +50,16 @@
  */
 .unslider {
   overflow: auto;
-  margin: 40px -12.5% 0;
+  margin: 40px auto 0;
   padding: 0;
-  width: 125%;
+  width: 100%;
+  position: relative;
   
+  @media #{$breakpoint-mobile} {
+    margin: 40px -12.5% 0;
+    padding: 0;
+    width: 125%;
+  }
     
 }
 .unslider-wrap {
@@ -91,16 +97,29 @@
 }
 .unslider-arrow {
   position: absolute;
-  left: 40px;
+  left: 2.5%;
   z-index: 2;
   cursor: pointer;
-/*  margin-top: px;*/
+  top: 37.5%;
+  opacity: .4;
 }
+
+.unslider-arrow:hover {
+  opacity: 1;
+}
+
 .unslider-arrow.next {
   left: auto;
-  right: 40px;
-/*  margin-top: -200px;*/
+  right: 2.5%;
 }
+
+.unslider a img {
+  height: 30px;
+  width: 30px;
+}
+
+
+
 
 .unslider-nav ol {
   list-style: none;

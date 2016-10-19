@@ -102,6 +102,8 @@
 			// lower float for enabling short swipe
 			swipeThreshold: 0.2
 		};
+      
+        
 
 		//  Set defaults
 		self.$context = context;

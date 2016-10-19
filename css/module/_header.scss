@@ -67,50 +67,10 @@ div.eventDate {
   padding: 8px; 
   width: 70%;
   max-width: 240px;
+  mix-blend-mode: multiply;
 
 }
 
-
-//Main Nav
-
-header nav { 
-  width: 90%;
-/*  position: relative;
-  top: 40px;
-  right: 30px;*/
-  font-size: .75rem;
-  text-align: center;
-}
-
-header nav ul li {
-  display: inline-block;
-}
-
-header nav ul li a {
-  color: $pink-base;
-  text-transform: uppercase;
-  padding: 10px 5px;
-}
-
-header nav ul li:before,
-footer nav ul li:before {
-  content: " | ";
-}
-
-header nav ul li:first-child:before, 
-footer nav ul li:first-child:before {
-  content: "";
-}
-
-header nav ul li a:hover,
-footer p.copyright a {
-  color: $pink-dark;
-/*  border-bottom: solid 4px $pink-base;*/
-}
-
-header nav ul li a.selected {
-  color: $grey-base;
-}
 
 
 
