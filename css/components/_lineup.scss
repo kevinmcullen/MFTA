@@ -8,7 +8,7 @@
 /*  display: none;*/
   opacity: 0;
   
-  @media #{breakpoint-larger-than-tablet} {
+  @media #{$breakpoint-larger-than-tablet} {
     top: -1500%;
   }
 }

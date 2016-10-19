@@ -1,8 +1,13 @@
-.mainContent p,
-.mainCOntent h2 {
-  max-width: 650px;
+.mainContent  {
+  max-width: 800px;
   margin: auto;
 }
+
+/*.mainContent.eventIntro,
+.mainContent.guestbookIntro,
+.mainContent.donateIntro {
+  mar
+}*/
 
 @mixin headline-large {
   font-size: $headline-main-desktop;

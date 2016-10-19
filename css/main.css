@@ -34,7 +34,9 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 ol, ul {
   list-style: none; }
@@ -56,11 +58,15 @@ a {
   font-weight: 700;
   color: #fff; }
 
-.mainContent p,
-.mainCOntent h2 {
-  max-width: 650px;
+.mainContent {
+  max-width: 800px;
   margin: auto; }
 
+/*.mainContent.eventIntro,
+.mainContent.guestbookIntro,
+.mainContent.donateIntro {
+  mar
+}*/
 button {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 700;
@@ -90,15 +96,18 @@ button {
     opacity: 1; }
 
 button {
-  background-color: #F35192;
-  color: #FFFFFF;
-  padding: 20px 35px; }
-
-aside button {
   background-color: #FFFFFF;
   color: #F35192;
   padding: 20px 35px; }
 
+/*aside button,
+.donateBlock button {
+  background-color: $white-base;
+  color: $pink-base;
+  padding: $button-padding;
+  
+  
+}*/
 .bandInfo {
   position: absolute;
   top: -1100%;
@@ -107,7 +116,7 @@ aside button {
   width: 100%;
   /*  display: none;*/
   opacity: 0; }
-  @media breakpoint-larger-than-tablet {
+  @media (min-width: 736px) {
     .bandInfo {
       top: -1500%; } }
 
@@ -164,7 +173,11 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+  line-height: 1.9rem;
   margin-bottom: 1.5rem; }
+
+.donateBlock h4 {
+  text-align: left; }
 
 p {
   font-size: 1rem;
@@ -182,13 +195,16 @@ aside p:not(:last-child) {
 .mainContent p {
   color: #FFFFFF; }
 
+.mainContent a:hover {
+  color: #F5F5F6; }
+
 .slideshow p {
   font-size: .75rem;
   margin: 5px auto;
   text-align: center; }
 
 small {
-  font-size: 0.625rem; }
+  font-size: 0.75rem; }
 
 aside small {
   color: #FFFFFF; }
@@ -201,13 +217,13 @@ img {
 
 .mainContentWrapper {
   background-image: linear-gradient(343deg, #3e4149, #f35192 51%, #3e4149);
-  padding-bottom: 60px; }
+  padding: 40px 0 60px; }
 
 .mainContent {
   width: 80%;
   padding: 40px 0 80px;
   margin: 0 auto 3.75rem;
-  border-bottom: solid 20px #FFFFFF; }
+  max-width: 600px; }
 
 * p:not(:last-child) {
   margin-bottom: 1rem; }
@@ -388,7 +404,7 @@ header > p {
 header {
   width: 100%;
   height: 100vh;
-  background-image: url(../img/christina-main-large.png);
+  background-image: url(../img/christina-main-large.jpg);
   background-size: cover;
   padding-top: 1rem; }
 

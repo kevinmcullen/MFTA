@@ -10,15 +10,16 @@ img {
 
 .mainContentWrapper {
   	background-image: linear-gradient(343deg, #3e4149, #f35192 51%, #3e4149);
-    padding-bottom: 60px;
+    padding: 40px 0 60px;
 }
 
 .mainContent {
   width: 80%;
   padding: 40px 0 80px;
   margin: 0 auto $section-break;
-  border-bottom: solid 20px $white-base;
+  max-width: 600px;
 }
+
 
 * p:not(:last-child) {
   margin-bottom: 1rem;

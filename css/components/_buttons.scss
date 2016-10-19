@@ -64,15 +64,16 @@ button {
 
 
 button {
-  background-color: $pink-base;
-  color: $white-base;
+  background-color: $white-base;
+  color: $pink-base;
   padding: $button-padding;
 }
 
-aside button {
+/*aside button,
+.donateBlock button {
   background-color: $white-base;
   color: $pink-base;
   padding: $button-padding;
   
   
-}
+}*/
