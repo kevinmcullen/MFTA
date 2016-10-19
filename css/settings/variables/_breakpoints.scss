@@ -1,0 +1,5 @@
+//Media QueryBreakpoints
+$breakpoint-desktop: '(min-width: 1024px)';
+$breakpoint-tablet: '(min-width: 736px) and (max-width: 1024px)';
+$breakpoint-phablet: '(min-width: 420px) and (max-width: 736px)';
+$breakpoint-mobile: '(max-width: 420px)';

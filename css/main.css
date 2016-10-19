@@ -65,8 +65,17 @@ a {
   margin: 5px auto;
   text-align: center; }
 
+.mainContent p,
+.mainCOntent h2 {
+  max-width: 650px;
+  margin: auto; }
+
+/*.mainContent h2 {
+  margin-bottom: 2rem;
+}*/
 body {
-  font-family: 'Open Sans', 'Arial', sans-serif; }
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -75,9 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 2.65rem;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 2rem; }
 
 p {
+  font-size: 1rem;
   line-height: 1.5em;
   font-weight: 400; }
 
@@ -126,13 +136,13 @@ p {
 .mainNav div:not(:last-child) {
   margin-bottom: 5px; }
 
-header nav,
-div.eventDate,
-img.mainLogo,
-.iconIllo img {
-  margin: 0 auto 1.875rem; }
+header > *:not(:last-child) {
+  margin: 1rem auto 2rem; }
+  @media (min-width: 420px) and (max-width: 736px) {
+    header > *:not(:last-child) {
+      margin-bottom: 1rem; } }
 
-header p.annual {
+header > p {
   margin-bottom: 3.75rem; }
 
 header {
@@ -140,7 +150,7 @@ header {
   height: 100vh;
   background-image: url(../img/christina-main-large.png);
   background-size: cover;
-  padding-top: 2.5rem; }
+  padding-top: 1rem; }
 
 header img {
   width: 80%;
@@ -152,6 +162,9 @@ header img {
 
 img.mainLogo {
   max-width: 700px; }
+  @media (min-width: 420px) and (max-width: 736px) {
+    img.mainLogo {
+      max-width: 200px; } }
 
 .iconIllo img {
   width: 50%;
@@ -173,14 +186,14 @@ div.eventDate {
   position: relative;
   padding: 8px;
   width: 70%;
-  max-width: 300px; }
+  max-width: 240px; }
 
 header nav {
   width: 90%;
   /*  position: relative;
     top: 40px;
     right: 30px;*/
-  font-size: .875rem;
+  font-size: .75rem;
   text-align: center; }
 
 header nav ul li {
@@ -211,7 +224,7 @@ h1 {
   display: none; }
 
 header p {
-  font-size: .8rem;
+  font-size: .6rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7.5px;

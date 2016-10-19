@@ -1,13 +1,16 @@
 //Spacers-vertical
 
-header nav,
-div.eventDate,
-img.mainLogo,
-.iconIllo img {
-    margin: 0 auto 1.875rem;
+
+
+//Evenly spaces all header elements ecept last child
+header > *:not(:last-child) {
+  margin: 1rem auto 2rem;
+  @media #{$breakpoint-phablet}  {
+    margin-bottom: 1rem;
+  }
 }
 
-header p.annual {
+header > p {
   margin-bottom: 3.75rem;
 }
 
@@ -19,7 +22,7 @@ header {
   height: 100vh;
   background-image: url(../img/christina-main-large.png);
   background-size: cover;
-  padding-top: 2.5rem;
+  padding-top: 1rem;
 }
 
 header img {
@@ -33,6 +36,10 @@ header img {
 
 img.mainLogo {
   max-width: 700px;
+
+  @media #{$breakpoint-phablet} {
+    max-width: 200px;
+  }
 }
 
 .iconIllo img {
@@ -59,7 +66,7 @@ div.eventDate {
   position: relative;
   padding: 8px; 
   width: 70%;
-  max-width: 300px;
+  max-width: 240px;
 
 }
 
@@ -71,7 +78,7 @@ header nav {
 /*  position: relative;
   top: 40px;
   right: 30px;*/
-  font-size: .875rem;
+  font-size: .75rem;
   text-align: center;
 }
 
@@ -117,13 +124,12 @@ h1 {
 }
 
 header p {
-  font-size: .8rem;
+  font-size: .6rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7.5px;
   margin-right: -7.5px;
   font-weight: 700;
-
 }
 
 
