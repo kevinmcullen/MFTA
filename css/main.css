@@ -58,10 +58,6 @@ a {
   font-weight: 700;
   color: #fff; }
 
-.mainContent {
-  max-width: 800px;
-  margin: auto; }
-
 /*.mainContent.eventIntro,
 .mainContent.guestbookIntro,
 .mainContent.donateIntro {
@@ -155,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 2.625rem;
-  margin: 0 auto 2rem;
+  margin: 0 auto 3rem;
   max-width: 650px; }
   @media (min-width: 420px) and (max-width: 736px) {
     h2 {
