@@ -9,14 +9,17 @@
 
 @mixin headline-large {
   font-size: $headline-main-desktop;
+  line-height: $headline-line-height-desktop;
 }
 
 @mixin headline-medium {
   font-size: $headline-main-tablet;
+  line-height: $headline-line-height-tablet;
 }
 
 @mixin headline-small {
   font-size: $headline-main-mobile;
+  line-height: $headline-line-height-mobile;
 }
 
 @mixin bold {

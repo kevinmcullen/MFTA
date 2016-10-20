@@ -9,7 +9,7 @@
   opacity: 0;
   
   @media #{$breakpoint-larger-than-tablet} {
-    top: -1500%;
+    top: -1300%;
   }
 }
 
@@ -21,21 +21,22 @@
 .band:hover {
   .bandInfo {
     opacity: 1;
+
     
   }
   
 }
 .band:hover img {
-    opacity: .2;
-      -webkit-filter: blur(7px);
-    filter: blur(7px);
+  opacity: .2;
+    -webkit-filter: blur(7px);
+  filter: blur(7px);
 }
 .bandInfo p {
   width: 90%;
   margin: 0 auto;
   
   @media #{$breakpoint-larger-than-tablet} {
-    width: 60%;
+    width: 80%;
   }
 }
 

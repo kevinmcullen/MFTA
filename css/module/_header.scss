@@ -40,6 +40,9 @@ img.mainLogo {
   @media #{$breakpoint-phablet} {
     max-width: 200px;
   }
+  @media #{$breakpoint-larger-than-large-desktop} {
+    max-width: 900px;
+  }
 }
 
 .iconIllo img {

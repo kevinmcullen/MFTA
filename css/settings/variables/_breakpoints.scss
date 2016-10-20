@@ -5,3 +5,5 @@ $breakpoint-phablet: '(min-width: 420px) and (max-width: 736px)';
 $breakpoint-mobile: '(max-width: 420px)';
 
 $breakpoint-larger-than-tablet: '(min-width: 736px)';
+$breakpoint-larger-than-mobile: '(min-width: 420px)';
+$breakpoint-larger-than-large-desktop: '(min-width: 1500px)';
