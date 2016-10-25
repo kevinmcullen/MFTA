@@ -338,6 +338,9 @@ section.mainContent {
         .eventLineup > div.row div:last-child {
           margin-right: 0; } }
 
+#map {
+  height: 400px; }
+
 /*
 .infoNav,
 .mainNav {
