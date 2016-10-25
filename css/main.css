@@ -105,29 +105,29 @@ button {
   
 }*/
 .bandInfo {
-  position: absolute;
-  top: -1100%;
+  /*  top: -1100%;*/
   padding: 20px 40px;
   height: 100%;
   width: 100%;
-  /*  display: none;*/
-  opacity: 0; }
-  @media (min-width: 736px) {
+  /*  display: none;*/ }
+  @media (min-width: 1024px) {
     .bandInfo {
-      top: -1300%; } }
+      position: absolute;
+      top: -1300%;
+      opacity: 0; } }
 
 .bandInfo,
 .band img {
   transition: all 0.3s ease-in-out; }
 
-.band:hover .bandInfo {
-  opacity: 1; }
+@media (min-width: 1024px) {
+  .band:hover .bandInfo {
+    opacity: 1; }
 
-.band:hover img {
-  opacity: .2;
-  -webkit-filter: blur(7px);
-  filter: blur(7px); }
-
+  .band:hover img {
+    opacity: .2;
+    -webkit-filter: blur(7px);
+    filter: blur(7px); } }
 .bandInfo p {
   width: 90%;
   margin: 0 auto; }
@@ -431,7 +431,7 @@ header img {
   position: relative; }
 
 img.mainLogo {
-  max-width: 700px; }
+  max-width: 640px; }
   @media (min-width: 420px) and (max-width: 736px) {
     img.mainLogo {
       max-width: 200px; } }
@@ -458,20 +458,26 @@ div.eventDate {
   background-color: #3E4149;
   position: relative;
   padding: 8px;
-  width: 70%;
-  max-width: 240px;
+  width: 80%;
+  max-width: 300px;
   mix-blend-mode: multiply; }
+  @media (min-width: 736px) {
+    div.eventDate {
+      max-width: 330px; } }
 
 h1 {
   display: none; }
 
 header p {
-  font-size: .6rem;
+  font-size: .9rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7.5px;
   margin-right: -7.5px;
   font-weight: 700; }
+  @media (min-width: 736px) {
+    header p {
+      font-size: 1rem; } }
 
 header div.iconIllo {
   width: 50%;

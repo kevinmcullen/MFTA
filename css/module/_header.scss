@@ -35,7 +35,7 @@ header img {
 }
 
 img.mainLogo {
-  max-width: 700px;
+  max-width: 640px;
 
   @media #{$breakpoint-phablet} {
     max-width: 200px;
@@ -68,16 +68,15 @@ div.eventDate {
   background-color: $grey-base;
   position: relative;
   padding: 8px; 
-  width: 70%;
-  max-width: 240px;
+  width: 80%;
+  max-width: 300px;
   mix-blend-mode: multiply;
+  
+  @media #{$breakpoint-larger-than-tablet} {
+    max-width: 330px;
+  }
 
 }
-
-
-
-
-
 
 //Icons
 
@@ -87,12 +86,16 @@ h1 {
 }
 
 header p {
-  font-size: .6rem;
+  font-size: .9rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7.5px;
   margin-right: -7.5px;
   font-weight: 700;
+  
+  @media #{$breakpoint-larger-than-tablet} {
+    font-size: 1rem;
+  }
 }
 
 
