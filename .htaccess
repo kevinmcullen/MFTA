@@ -1,0 +1,3 @@
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^musicforthearts.com [NC] 
+RewriteRule ^(.*)$ http://www.musicforthearts.com/$1 [L,R=301]
