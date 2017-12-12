@@ -125,9 +125,7 @@ button {
     opacity: 1; }
 
   .band:hover img {
-    opacity: .2;
-    -webkit-filter: blur(7px);
-    filter: blur(7px); } }
+    opacity: .05; } }
 .bandInfo p {
   width: 90%;
   margin: 0 auto; }
@@ -254,7 +252,7 @@ section.mainContent {
   section.mainContent section {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%;
     padding: 0 0 40px; }
     section.mainContent section:last-child {
@@ -262,7 +260,7 @@ section.mainContent {
   section.mainContent aside {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     section.mainContent aside:last-child {
       margin-right: 0; }
@@ -278,16 +276,16 @@ section.mainContent {
       section.mainContent section {
         float: left;
         display: block;
-        margin-right: 2.35765%;
-        width: 74.41059%;
+        margin-right: 2.3576520234%;
+        width: 74.4105869942%;
         padding: 0 40px 40px 0; }
         section.mainContent section:last-child {
           margin-right: 0; }
       section.mainContent aside {
         float: left;
         display: block;
-        margin-right: 2.35765%;
-        width: 23.23176%; }
+        margin-right: 2.3576520234%;
+        width: 23.2317609825%; }
         section.mainContent aside:last-child {
           margin-right: 0; } }
 
@@ -312,14 +310,14 @@ section.mainContent {
   .eventLineup > div.row h3 {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     .eventLineup > div.row h3:last-child {
       margin-right: 0; }
   .eventLineup > div.row div {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%;
     padding: 0 0 40px; }
     .eventLineup > div.row div:last-child {
@@ -336,8 +334,8 @@ section.mainContent {
       .eventLineup > div.row div {
         float: left;
         display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%; }
+        margin-right: 2.3576520234%;
+        width: 48.8211739883%; }
         .eventLineup > div.row div:last-child {
           margin-right: 0; } }
 
@@ -472,7 +470,8 @@ div.eventDate {
       max-width: 330px; } }
 
 h1 {
-  display: none; }
+  position: absolute;
+  opacity: 0; }
 
 header p {
   font-size: .9rem;
@@ -498,6 +497,18 @@ header a.scrollIcon {
 
 header a.scrollIcon img {
   width: 25px; }
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center; }
 
 footer {
   width: 100%;
